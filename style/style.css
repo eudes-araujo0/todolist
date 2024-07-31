@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-btn: #7e8580;
+    --clr-icon: #fff;
+    --bg-btn-hover: #535151;
+}
+
+body {
+    background-color: rgb(26, 16, 16);
+    color: var(--clr-icon)
+}
+
+.container {
+    position: relative;
+    width: 500px;
+}
+
+.input-group {
+    max-width: 300px;
+}
+
+.btn-custom {
+    background-color: var(--bg-btn);
+    color: var(--clr-icon);
+    transition: .3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: var(--bg-btn-hover);
+}
+
+
+.btn-complete-checked {
+    background-color: rgb(167, 10, 10);
+}
+.btn-complete-checked:hover {
+    background-color: rgb(107, 11, 11);
+}
+
+.btn-complete-unchecked {
+    background-color: rgb(18, 136, 18);
+    border-color: rgb(21, 143, 21);
+}
+
+.btn-complete-unchecked:hover {
+    background-color: rgb(14, 99, 14);
+    border-color: rgb(14, 99, 14);
+}
+
+
+.btn-edit {
+    background-color: #f5a105;
+    border-color: #f5a105;
+}
+
+.btn-edit:hover {
+    background-color: #8f600a;
+    border-color: #8f600a;
+}
+
+.list-group {
+    max-width: 500px;
+}
+
+.form-select {
+    max-width: 200px;
+}
+
+.form-control:focus,
+.form-select:focus,
+.btn-custom:hover {
+    border-color: var(--bg-btn-hover); 
+    box-shadow: 0 0 5px #c9c7c6; 
+}
+
+
+.list-group-border {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+#message {
+    background-color: transparent;
+    color: azure;
+}
+
+.completed {
+    text-decoration:line-through;
+    font-style: italic;
+    color: grey;
+}
